@@ -1,0 +1,42 @@
+// Mobile Max Width 480px
+
+@media (max-width:480px){
+    
+    //All
+    .title-accessories, .title-likeUs, .title-ourTeam, .title-supplies{
+        width: 100%;
+    }
+    //Nav
+    .navbar{
+        .collapse.show ul{
+            align-items: center;
+        }
+    }
+     //Carousal
+     .head-text-button{
+        left: 5%;
+    }
+    .carousel {
+        .carousel-indicators{
+            right: -9% ;
+        }
+    }
+
+    
+
+//Small Footer
+/*--------------------------------Small Footer-------------------------------------------*/
+#small-footer{
+    .container{
+                max-width: 100%; 
+                display: flex;
+        }    
+    ul{ 
+        li{     
+            font-size: 11px;   
+    }
+}
+}
+
+
+}

@@ -1,0 +1,52 @@
+@import '../Styles/style';
+
+/*------------------------------About US --------------------------------------*/
+#about-us{
+    background-color: $sectionBg-color;
+    width: 100%;
+    height: auto;
+.about-content{
+    width: 100%;  
+    padding-bottom: 30px; 
+}
+.tick-mark-img{
+    margin-right: 10px;
+}
+.about-us-text{
+    width: 100%;
+    height: 162px;
+    overflow: hidden;
+    font-size: 0.9rem;
+    color: $textAndoverley-color;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+.about-right {
+    width: 430px;
+    height: 100%;
+    margin-left: auto; 
+    position: relative;
+}
+.about-right::after{
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 25%;
+}
+.about-right img{
+    width: 100%;
+    height: 100%;
+}
+.about-btn{
+    @include same-button($white,1rem,$orange-color);
+}
+.about-btn:hover{
+    
+}
+}
+/*------------------------------About US END--------------------------------------*/

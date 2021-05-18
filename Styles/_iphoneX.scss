@@ -1,0 +1,53 @@
+// iphoneX Max Width 375px
+
+@media (max-width:375px){
+    //Nabvar
+    .navbar{
+        .navbar-toggler {
+            padding: 0;
+        }
+    }
+    //Carousal
+    .head-text-button{
+        transform: translateY(-20%);
+    }
+    // About
+    #about-us{
+        padding: 0 20px;
+       
+    }
+    #about-us .about-right {
+        width: 300px;
+    }
+
+    //accessories
+    #accessories{
+        padding: 0 20px;
+    }
+
+    //Our-Team
+    .our-team-content-right{
+        padding-left:0px;
+    }
+    //partners
+    #partners{
+        padding: 0 20px;
+    }
+
+    //Like Us
+  
+
+    //Contact
+    #contact{
+        flex-direction: column;      
+    }
+    .same-contact{
+        width: 100%; 
+    }
+
+   
+
+   
+
+
+}

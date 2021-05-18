@@ -1,0 +1,421 @@
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+}
+
+
+/*------------------------------Title-start--------------------------------------*/
+.title{
+    margin: 0 auto;
+    width:450px;
+    height:auto;
+    color: #3B3B3B;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center !important;
+    margin-top: 93px;
+   
+
+}
+
+.title-line{
+    width:52px;
+    height:5px ;
+    background-color: orangered;
+    margin: 0 auto;
+    border-radius: 0px 0px 11px 11px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.title-text{
+   text-align: center;
+   margin-top: 10px;
+   font-size: 16px;
+   color: #134322;
+   font-family: 'DM Sans';
+   margin-bottom: 50px;
+}
+
+
+/*------------------------------Title-End --------------------------------------*/
+/*------------------------------Navbar --------------------------------------*/
+.navbar{
+    background-color: #F5EDED;
+    z-index: 11;
+}
+.navbar-logo{
+   width:288px;
+   height: 70px;
+}
+
+.nav-link a{
+    font-size:15px;
+    
+}
+
+.navbar-light{
+    font-weight: 700 !important;
+}
+.nav-item hr{
+    width: 70%;
+    border-radius: 0px 0px 11px 11px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    border-bottom: 4px solid #EB6551;
+    z-index: 11;
+    
+}
+
+
+
+/*------------------------------Navbar END--------------------------------------*/
+
+/*------------------------------Products --------------------------------------*/
+#products{
+    width: 100%;
+    height: 315px;
+    background-image: url("../About/Images/Image\ 74.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#products::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color: #484141;
+    opacity: 85%;
+    z-index:-2;
+}
+
+.products-banner{
+    z-index: 13;
+    color: white;
+    text-align: center;
+    font-family: 'Nunito';
+}
+
+.products-banner h1{
+    font-size: 42px;
+    font-weight: 700;
+    
+}
+
+.products-banner h4{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*------------------------------Products END--------------------------------------*/
+
+
+.zero-padding{
+    margin: 0;
+    padding:0; 
+}
+
+.sidebar{
+    height: auto;
+    width: 100%;
+    background-color: #4F4F4F;
+}
+
+.products-title{
+    height: 40px;
+    width: calc(100% - 15px);
+    background-color: #F2F0E7;
+    
+    
+}
+
+.product-image{
+    height: 150px;
+    width: calc(100% - 15px);
+  
+    margin-bottom: 15px;
+    margin-right: 15px;   
+}
+.product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-image-section{
+    margin-top: 25px;
+}
+
+.products-title{
+    display: flex;
+    align-items: center;
+    
+}
+
+.products-title h3{
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+    padding-left: 15px;
+    color: #EB6551;
+
+}
+
+.sidebar-title{
+  padding-left: 22px;
+  padding-top: 34px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.sidebar-Menus{
+    margin-top: 30px;
+}
+.menu {
+    font-family: 'DM Sans';
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    width: 90%;
+    padding: 8px 0;
+    padding-left: 17px !important;
+    margin-right: 10px !important;
+    margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   position: relative;
+
+}
+
+.menu::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 3%;
+}
+
+.menu:hover{
+    text-decoration: none;
+}
+
+.menu-img{
+        display: inline-block;
+        padding-left: auto;
+      
+        
+
+}
+
+/*--------------------------------Our Products -------------------------------------------*/
+
+
+
+/*--------------------------------Felcon Contact-------------------------------------------*/
+
+
+
+#felcon-contact{
+    width: 100%;
+    height: 557px;
+    background-color: #373737; 
+}
+
+.contact-details{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.contact{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px !important;
+}
+
+.contact-left {
+    background-color: #373737;
+  
+   
+}
+
+.contact-right{
+    position: relative;
+    z-index: 319;
+    background-color: #373737;
+}
+
+.contact-right::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #242424;
+    opacity: 61%;
+    z-index: 326;
+
+}
+
+.white-logo{
+    width: 288px;
+    height: 70px;
+    margin-bottom: 126px;
+}
+
+.white-logo img{
+    width: 100%;
+}
+
+.contact h6{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+   
+}
+
+.call-email{
+    color: white;
+    font-size: 14px;
+}
+
+.call-email a{
+    text-decoration: none !important;
+    color: white;
+}
+
+.left-package{
+    padding-left: 20%;
+}
+
+.right-package{
+    padding-left: 10%;
+    z-index: 327;
+
+}
+
+.form-control{
+   padding: .375rem 9rem !important;
+   background-color: #5D3737;
+   opacity: 15%;
+}
+
+
+
+.searchbar{
+    width: 519px;
+    height: 140px;
+    background-color: white;
+    opacity: 80%;
+    z-index: 430;
+    padding-top:10px;
+    padding-bottom:10px;
+   
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+.input-group{
+    z-index: 436;
+    padding: 0 20px;
+  
+}
+
+.subscribe-button{
+    font-size: 18px;
+    padding:13px 32px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #EB6551;
+    opacity: 80%;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+
+
+input::placeholder {
+
+    color: red !important;
+    z-index: 9999;
+    
+  }
+
+  .social-links{
+      width:172px;
+      height: 22px;
+      margin-top: 25px;
+  }
+  .social-link-item{
+      padding:6px;
+      
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------Small Footer-------------------------------------------*/
+
+  #small-footer{
+    width: 100%;
+    height: 88px;
+    background-color: #212020;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+  .small-footer-ul{
+      display: flex;
+      color: white;
+  }
+
+  .small-footer-li{
+    list-style: none;
+    color: white;
+    padding: 0 20px;
+    font-size: 14px;
+    font-family: 'poppins';
+}
+
+/*--------------------------------Small Footer-------------------------------------------*/
+
+/*--------------------------------Felcon Contact END-------------------------------------------*/
+
+    
+

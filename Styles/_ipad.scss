@@ -1,0 +1,55 @@
+// Ipad Max Width 1024
+@media (max-width:1024px){
+
+      //For All
+      .title-accessories, .title-likeUs, .title-supplies{
+        width: 40%;
+    }
+
+    //Navbar
+    .navbar{
+        .navbar-logo{
+            width: 70%;
+        }
+        .nav-item a{
+            font-size: 13px;
+        }
+    }
+      //Carousal
+      
+    .head-text-button{
+        left: 5%;
+    }
+    .head-text-button h1{
+        font-size: 4rem;
+    }
+    .head-text-button h2{
+        font-size: 2rem;
+
+    }
+    .carousel-text{
+        font-size: 1.2rem;
+
+    }
+    .carousel {
+        .carousel-indicators{
+            right: -9% ;
+        }
+    }
+
+
+  
+  
+
+   
+   
+ 
+
+    
+    
+
+     
+  
+
+
+}
