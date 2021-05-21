@@ -1,0 +1,119 @@
+//// iphoneX Max Width 320px
+//ALL
+.column-head{
+    font-size: 14px;
+}
+.title-xl{
+    font-size: 1.5rem;
+}
+
+@media (max-width:320px){
+    body{
+        font-size: 2em;
+        line-height: 1rem;
+    }
+  
+    //Navbar
+    .navbar{
+        .navbar-brand{
+            width: 80%;
+        }
+    }
+
+    //carousal
+    .head-text-button{
+        width: 70%;
+       
+        h1{
+            font-size: 2.5rem;
+        }
+        h2{
+            font-size: 1.2rem;
+        }
+      
+    }
+    .carousel-text{
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        line-height: 1rem;
+        height: 65px;
+    }
+
+    .carousel-btn{
+        @include same-button($white,0.8rem,transparent);
+        border: 2px solid $white;
+        padding: .8rem 1.5rem;
+    }
+    
+    //About US
+    #about-us {
+        .about-us-text {
+            margin-bottom: 1.5rem;
+        }
+        .about-btn{
+            margin: auto; 
+           
+        }
+        .about-right{
+            width: 250px;
+            margin:0 auto;
+        }
+    }
+
+        //Like US
+
+        .like-us{
+            height: auto;
+         
+        }
+        .specialities{
+            flex-direction: column;
+
+            .iteams{
+                flex-basis: 80%;
+                margin-right: 0;
+            }
+            .likeUs-logo{
+                width: 60px;
+                height: 60px;
+
+            }
+            .likeUs-large-text{
+                font-size: 1rem;
+            }
+            .like-us-paragraph{
+                font-size: 0.8rem;
+
+            }
+
+        }
+
+
+        //Our Team
+        .our-team-head{
+            font-size: 14px;
+        }
+        .our-team-text{
+         font-size: 0.9rem;            
+        }
+
+        //Contact
+        #contact{
+            .call-email {
+                font-size: 1rem;
+            }
+
+            .input-btn{
+                font-size: 0.8rem;   
+            }
+        
+
+        }
+        
+
+
+
+
+
+      
+}

@@ -39,6 +39,7 @@
   margin: auto;
   line-height: 3rem;
   font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .title-text {
@@ -943,6 +944,100 @@ body {
   }
 }
 
+.column-head {
+  font-size: 14px;
+}
+
+.title-xl {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 320px) {
+  body {
+    font-size: 2em;
+    line-height: 1rem;
+  }
+  .navbar .navbar-brand {
+    width: 80%;
+  }
+  .head-text-button {
+    width: 70%;
+  }
+  .head-text-button h1 {
+    font-size: 2.5rem;
+  }
+  .head-text-button h2 {
+    font-size: 1.2rem;
+  }
+  .carousel-text {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    height: 65px;
+  }
+  .carousel-btn {
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Nunito';
+    color: #fff;
+    font-size: 0.8rem;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: .8rem 1.5rem;
+  }
+  .carousel-btn:hover {
+    text-decoration: none;
+  }
+  #about-us .about-us-text {
+    margin-bottom: 1.5rem;
+  }
+  #about-us .about-btn {
+    margin: auto;
+  }
+  #about-us .about-right {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .like-us {
+    height: auto;
+  }
+  .specialities {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .specialities .iteams {
+    -ms-flex-preferred-size: 80%;
+        flex-basis: 80%;
+    margin-right: 0;
+  }
+  .specialities .likeUs-logo {
+    width: 60px;
+    height: 60px;
+  }
+  .specialities .likeUs-large-text {
+    font-size: 1rem;
+  }
+  .specialities .like-us-paragraph {
+    font-size: 0.8rem;
+  }
+  .our-team-head {
+    font-size: 14px;
+  }
+  .our-team-text {
+    font-size: 0.9rem;
+  }
+  #contact .call-email {
+    font-size: 1rem;
+  }
+  #contact .input-btn {
+    font-size: 0.8rem;
+  }
+}
+
 .company-image {
   width: 100%;
 }
@@ -1099,5 +1194,51 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  #core-members {
+    padding-bottom: 30px;
+  }
+  .mvp-content {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .binding {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .work-head-text-btn {
+    margin-top: 20px;
+  }
+  .border-button {
+    float: left !important;
+  }
+  .binding .work-head-text h1 {
+    font-size: 2rem;
+  }
+  .member-image {
+    margin: auto;
+    margin-bottom: 30px;
+    height: 295px;
+  }
+}
+
+@media (max-width: 480px) {
+  .member-image {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .work-head-text-paragraph {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
 }
 /*# sourceMappingURL=about.css.map */

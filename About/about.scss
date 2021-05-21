@@ -143,3 +143,75 @@
 }
 
 
+//-------------------------------------------Responsive Design--------------------------------------------------------
+
+// Large Screen Max Width 1281px
+@media (max-width:1281){
+
+}
+
+// Ipad Max Width 1024px
+@media (max-width:1024){
+
+}
+
+// Tab Max Width 767px
+@media (max-width:767px){
+
+    #core-members{
+        padding-bottom: 30px;
+    }
+
+    .mvp-content {
+        width: 70%;
+        margin: auto;
+    margin-bottom: 30px;
+    }
+    .binding{
+        flex-direction: column;
+        
+    }
+    .work-head-text-btn{
+        margin-top: 20px;
+    }
+    .border-button{
+        float: left !important;
+    }
+    .binding .work-head-text h1 {
+        font-size: 2rem;
+    }
+//Members
+    
+    .member-image{
+        margin: auto;
+        margin-bottom: 30px;
+        height: 295px;
+    }
+}
+
+// Mobile Max Width 480px
+@media (max-width:480px){
+    // Member Image
+    .member-image{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+// iphoneX Max Width 375px
+@media (max-width:375px){
+
+}
+
+// iphoneX Max Width 320px
+@media (max-width:320px){
+    .work-head-text-paragraph{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+}
+

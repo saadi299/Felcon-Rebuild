@@ -1,34 +1,34 @@
 @import '../Styles/style';
 
 /*------------------------------About US --------------------------------------*/
-#about-us{
+#our-purpose{
     background-color: $sectionBg-color;
     width: 100%;
     height: auto;
-.about-content{
+.purpose-content{
     width: 100%;  
     padding-bottom: 30px; 
 }
 .tick-mark-img{
     margin-right: 10px;
 }
-.about-us-text{
+.our-purpose-text{
     width: 100%;
     height: 162px;
     overflow: hidden;
     font-size: 0.9rem;
     color: $textAndoverley-color;
     margin-top: 1.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-align: justify;
 }
-.about-right {
+.purpose-right {
     width: 430px;
     height: 100%;
     margin-left: auto; 
     position: relative;
 }
-.about-right::after{
+.purpose-right::after{
     content: '';
     position: absolute;
     left:0;
@@ -38,15 +38,123 @@
     background-color: black;
     opacity: 25%;
 }
-.about-right img{
+.purpose-right img{
     width: 100%;
     height: 100%;
 }
-.about-btn{
-    @include same-button($white,1rem,$orange-color);
 }
-.about-btn:hover{
-    
+.openings-link{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: bold;
 }
+
+.openings-link:hover{
+   text-decoration: none;
+   color: black;
+  
 }
 /*------------------------------About US END--------------------------------------*/
+/*------------------------------WHy Work here-----------------------------------------*/
+.work-content{
+    height: 350px;
+    background-color: red;
+    position: relative;
+}
+.work-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.work-content::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#CFCFCF;
+    opacity: 94%;
+}
+
+.logo{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 33px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo-title-text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+
+}
+.logo-title-text h4{
+    color: #EB6551;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+.text{
+    color: #3B3B3B;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    width: 80%;
+    min-height: 50px;
+    max-height: 90px;
+    overflow: hidden;
+   
+}
+/*------------------------------WHy Work here End-----------------------------------------*/
+//-------------------------------------------Responsive Design--------------------------------------------------------
+
+// Large Screen Max Width 1281px
+@media (max-width:1281){
+
+}
+
+// Ipad Max Width 1024px
+@media (max-width:1024){
+
+}
+
+// Tab Max Width 767px
+@media (max-width:767px){
+
+  
+}
+
+// Mobile Max Width 480px
+@media (max-width:480px){ 
+    
+#our-purpose .purpose-right {
+    margin: auto; 
+    width: 90%;
+}
+.title-xl {
+    width: 100%;
+}
+
+}
+
+// iphoneX Max Width 375px
+@media (max-width:375px){
+
+}
+
+// iphoneX Max Width 320px
+@media (max-width:320px){
+  
+
+}
+

@@ -39,6 +39,7 @@
   margin: auto;
   line-height: 3rem;
   font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .title-text {
@@ -939,6 +940,248 @@ body {
             flex-direction: column;
   }
   .same-contact {
+    width: 100%;
+  }
+}
+
+.column-head {
+  font-size: 14px;
+}
+
+.title-xl {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 320px) {
+  body {
+    font-size: 2em;
+    line-height: 1rem;
+  }
+  .navbar .navbar-brand {
+    width: 80%;
+  }
+  .head-text-button {
+    width: 70%;
+  }
+  .head-text-button h1 {
+    font-size: 2.5rem;
+  }
+  .head-text-button h2 {
+    font-size: 1.2rem;
+  }
+  .carousel-text {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    height: 65px;
+  }
+  .carousel-btn {
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Nunito';
+    color: #fff;
+    font-size: 0.8rem;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: .8rem 1.5rem;
+  }
+  .carousel-btn:hover {
+    text-decoration: none;
+  }
+  #about-us .about-us-text {
+    margin-bottom: 1.5rem;
+  }
+  #about-us .about-btn {
+    margin: auto;
+  }
+  #about-us .about-right {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .like-us {
+    height: auto;
+  }
+  .specialities {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .specialities .iteams {
+    -ms-flex-preferred-size: 80%;
+        flex-basis: 80%;
+    margin-right: 0;
+  }
+  .specialities .likeUs-logo {
+    width: 60px;
+    height: 60px;
+  }
+  .specialities .likeUs-large-text {
+    font-size: 1rem;
+  }
+  .specialities .like-us-paragraph {
+    font-size: 0.8rem;
+  }
+  .our-team-head {
+    font-size: 14px;
+  }
+  .our-team-text {
+    font-size: 0.9rem;
+  }
+  #contact .call-email {
+    font-size: 1rem;
+  }
+  #contact .input-btn {
+    font-size: 0.8rem;
+  }
+}
+
+/*------------------------------About US --------------------------------------*/
+#our-purpose {
+  background-color: #F9F8F3;
+  width: 100%;
+  height: auto;
+}
+
+#our-purpose .purpose-content {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+#our-purpose .tick-mark-img {
+  margin-right: 10px;
+}
+
+#our-purpose .our-purpose-text {
+  width: 100%;
+  height: 162px;
+  overflow: hidden;
+  font-size: 0.9rem;
+  color: #484141;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+#our-purpose .purpose-right {
+  width: 430px;
+  height: 100%;
+  margin-left: auto;
+  position: relative;
+}
+
+#our-purpose .purpose-right::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 25%;
+}
+
+#our-purpose .purpose-right img {
+  width: 100%;
+  height: 100%;
+}
+
+.openings-link {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: black;
+  font-weight: bold;
+}
+
+.openings-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/*------------------------------About US END--------------------------------------*/
+/*------------------------------WHy Work here-----------------------------------------*/
+.work-content {
+  height: 350px;
+  background-color: red;
+  position: relative;
+}
+
+.work-content img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.work-content::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #CFCFCF;
+  opacity: 94%;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 33px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.logo-title-text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.logo-title-text h4 {
+  color: #EB6551;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.text {
+  color: #3B3B3B;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  width: 80%;
+  min-height: 50px;
+  max-height: 90px;
+  overflow: hidden;
+}
+
+/*------------------------------WHy Work here End-----------------------------------------*/
+@media (max-width: 480px) {
+  #our-purpose .purpose-right {
+    margin: auto;
+    width: 90%;
+  }
+  .title-xl {
     width: 100%;
   }
 }
